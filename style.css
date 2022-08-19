@@ -34,4 +34,10 @@ body {
 .box .img img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.box:hover .img img {
+    opacity: 0;
 }
