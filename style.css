@@ -6,3 +6,10 @@ body {
     align-items: center;
     background: rgb(37, 37, 113);
 }
+
+.container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
